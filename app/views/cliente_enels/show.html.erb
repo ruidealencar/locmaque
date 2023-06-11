@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @cliente_enel %>
+
+<div>
+  <%= link_to "Edit this cliente enel", edit_cliente_enel_path(@cliente_enel) %> |
+  <%= link_to "Back to cliente enels", cliente_enels_path %>
+
+  <%= button_to "Destroy this cliente enel", @cliente_enel, method: :delete %>
+</div>

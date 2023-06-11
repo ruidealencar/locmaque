@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Cliente cageces</h1>
+
+<div id="cliente_cageces">
+  <% @cliente_cageces.each do |cliente_cagece| %>
+    <%= render cliente_cagece %>
+    <p>
+      <%= link_to "Show this cliente cagece", cliente_cagece %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New cliente cagece", new_cliente_cagece_path %>

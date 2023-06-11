@@ -1,0 +1,2 @@
+class ClienteCagece < ApplicationRecord
+end
